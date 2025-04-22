@@ -1,0 +1,76 @@
+* {
+    margin: 25px;
+}
+
+body {
+    background-color: pink;
+    color: black;
+}
+
+section {
+    margin: 10px;
+}
+
+.meow-script-regular {
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.delius-swash-caps-regular {
+    font-family: "Delius Swash Caps", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.spectral-regular {
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Meow Script";
+    font-size: 100px;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(250, 243, 144);
+}
+
+h2 {
+    font-family: "Delius Swash Caps";
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    font-family: "Spectral";
+    font-size: 25px;
+    font-weight: 300;
+}
+
+img {
+    height: auto;
+    width: 100px;
+}
+
+.about {
+    font-family: "Spectral";
+    text-align: center;
+    border: 5px solid rgb(250, 243, 144);
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    font-family: "Spectral";
+    border: 5px solid rgb(250, 243, 144);
+}
