@@ -11,6 +11,19 @@ section {
     margin: 10px;
 }
 
+.navigation {
+    display: block;
+    position: sticky;
+    top: 0;
+    background-color: rgb(250, 243, 144);
+}
+
+.navigation a {
+    font-family: "Delius Swash Caps";
+    text-align: center;
+    color: black;
+}
+
 .meow-script-regular {
     font-family: "Meow Script", cursive;
     font-weight: 400;
@@ -51,6 +64,13 @@ h3 {
     font-weight: 300;
 }
 
+h5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: "Spectral";
+}
+
 img {
     height: auto;
     width: 100px;
@@ -66,6 +86,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .list {
@@ -73,4 +94,18 @@ img {
     flex-direction: column;
     font-family: "Spectral";
     border: 5px solid rgb(250, 243, 144);
+}
+
+.connect-container {
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Spectral";
+    border: 5px solid rgb(250, 243, 144);
+    height: 150px;
 }
