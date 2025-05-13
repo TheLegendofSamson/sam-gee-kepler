@@ -1,64 +1,4 @@
-/*tablet media query*/
-@media (max-width: 1025px) {
-    * {
-        margin: 15px;
-    }
-    section {
-        margin: 5px;
-    }
-    body {
-        margin: 20px;
-    }
-    .about {
-        font-size: 20px;
-        padding: 2px;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    h5 {
-        font-size: 15px;
-        font-weight: 450;
-    }
-    .list p {
-        font-size: 18px;
-        text-align: center;
-    }
-}
-
-/*mobile media query*/
-@media (max-width: 540px) {
-    * {
-        margin: 5px;
-    }
-    section {
-        margin: 5px;
-    }
-    .about {
-        font-size: 15px;
-        padding: 2px;
-    }
-    h3 {
-        font-size: 15px;
-    }
-    h5 {
-        font-size: 12px;
-    }
-    .experience-container {
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .list {
-        flex-direction: row;
-        padding: 2px;
-    }
-    .list p {
-        font-size: 15px;
-        text-align: center;
-    }
-}
-
+/*Desktop-first*/
 * {
     margin: 25px;
 }
@@ -166,4 +106,65 @@ img {
     font-family: "Spectral";
     border: 5px solid rgb(250, 243, 144);
     height: 150px;
+}
+
+/*tablet media query*/
+@media (max-width: 1025px) {
+    * {
+        margin: 15px;
+    }
+    section {
+        margin: 5px;
+    }
+    body {
+        margin: 20px;
+    }
+    .about {
+        font-size: 20px;
+        padding: 2px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 15px;
+        font-weight: 450;
+    }
+    .list p {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+/*mobile media query*/
+@media (max-width: 540px) {
+    * {
+        margin: 5px;
+    }
+    section {
+        margin: 5px;
+    }
+    .about {
+        font-size: 15px;
+        padding: 2px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    h5 {
+        font-size: 12px;
+    }
+    .experience-container {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .list {
+        flex-direction: row;
+        padding: 2px;
+    }
+    .list p {
+        font-size: 15px;
+        text-align: center;
+    }
 }
