@@ -1,3 +1,64 @@
+/*tablet media query*/
+@media (max-width: 1025px) {
+    * {
+        margin: 15px;
+    }
+    section {
+        margin: 5px;
+    }
+    body {
+        margin: 20px;
+    }
+    .about {
+        font-size: 20px;
+        padding: 2px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 15px;
+        font-weight: 450;
+    }
+    .list p {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+/*mobile media query*/
+@media (max-width: 540px) {
+    * {
+        margin: 5px;
+    }
+    section {
+        margin: 5px;
+    }
+    .about {
+        font-size: 15px;
+        padding: 2px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    h5 {
+        font-size: 12px;
+    }
+    .experience-container {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .list {
+        flex-direction: row;
+        padding: 2px;
+    }
+    .list p {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
 * {
     margin: 25px;
 }
@@ -11,17 +72,14 @@ section {
     margin: 10px;
 }
 
-.navigation {
+nav {
     display: block;
     position: sticky;
     top: 0;
-    background-color: rgb(250, 243, 144);
-}
-
-.navigation a {
     font-family: "Delius Swash Caps";
     text-align: center;
     color: black;
+    background-color: rgb(250, 243, 144);
 }
 
 .meow-script-regular {
