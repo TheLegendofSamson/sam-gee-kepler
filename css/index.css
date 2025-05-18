@@ -94,6 +94,20 @@ img {
     border: 5px solid rgb(250, 243, 144);
 }
 
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 5px solid rgb(250, 243, 144);
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Spectral";
+}
+
 .connect-container {
     display: flex;
     justify-content: center;
