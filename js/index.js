@@ -63,7 +63,7 @@ function formSubmit(event) {
 
     //find message section
     const messageSection = document.getElementById("Messages");
-    const messageList = messageSection.getElementsByTagName("ul");
+    const messageList = messageSection.getElementsByTagName("ul")[0];
     console.log(messageList);
 
     //display message section
