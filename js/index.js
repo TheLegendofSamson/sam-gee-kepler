@@ -83,7 +83,7 @@ function formSubmit(event) {
     newMessage.appendChild(removeButton);
 
     //appending new message to message list
-    messageList[0].appendChild(newMessage);
+    messageList.appendChild(newMessage);
 
     event.target.reset();
 }
