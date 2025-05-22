@@ -122,6 +122,35 @@ img {
     height: 150px;
 }
 
+#Leave-a-message {
+    text-align: center;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    font-family: "Spectral";
+}
+
+textarea {
+    height: 100px;
+    width: 200px;
+}
+
+button {
+    height: auto;
+    width: 100px;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: "Spectral";
+    border: 5px solid rgb(250, 243, 144);
+}
+
 /*tablet media query*/
 @media (max-width: 1025px) {
     * {
