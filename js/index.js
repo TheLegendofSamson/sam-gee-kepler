@@ -93,3 +93,33 @@ const messageForm = document.getElementsByName("leave_message");
 console.log(messageForm);
 //message form event listener function
 messageForm[0].addEventListener("submit", formSubmit);
+
+//creating GET request with fetch API
+fetch("https://api.github.com/users/TheLegendofSamson/repos")
+    .then(response => {
+        if (!response.ok) {
+            throw new Error("Request failed");
+        }
+        return response.json();
+    })
+
+    //getting repository data
+    .then(data => {
+        const repositories = [...data];
+        console.log(repositories);
+    
+    //finding project section
+    const projectSection = document.getElementById("Projects");
+    const projectList = projectSection.getElementsByTagName("ul")[0];
+
+    //creating project list
+    for (let i = 0; i < repositories.length; i++) {
+        const project = document.createElement("li");
+        project.innerText = `${repositories[i].name}`;
+        projectList.appendChild(project);
+    }
+    })
+    
+    .catch(error => {
+        console.error("An error occurred:", error);
+    });

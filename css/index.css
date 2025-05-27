@@ -108,6 +108,13 @@ img {
     font-family: "Spectral";
 }
 
+.projects-container {
+    display: flex;
+    justify-content: center;
+    font-family: "Spectral";
+    border: 5px solid rgb(250, 243, 144);
+}
+
 .connect-container {
     display: flex;
     justify-content: center;
